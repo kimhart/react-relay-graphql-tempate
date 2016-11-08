@@ -1,5 +1,42 @@
-node_modules/
-data/schema.json
+# app files
 public/bundle.js
 public/bundle.js.map
 public/bundle.min.js
+
+# graphql json export for introspection
+graphql/schema.json
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# node-waf configuration
+.lock-wscript
+
+# Dependency directory
+node_modules
+
+# Debug log from npm
+npm-debug.log
+
+Vagrantfile
+.vagrant
+*.swp
+
+# Font file hashes
+app/*.ttf
+app/*.svg
+app/*.eot
+
+# Mac files
+.DS_Store
+
+lupaProject.json

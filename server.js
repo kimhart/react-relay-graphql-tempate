@@ -4,7 +4,6 @@ import Schema from './graphql/schema'
 import bodyParser from 'body-parser';
 import GraphQLHTTP from 'express-graphql'
 import {MongoClient} from 'mongodb';
-import {graphql} from 'graphql';
 import {introspectionQuery} from 'graphql/utilities';
 import SchemaExporter from './utilities/SchemaExporter';
 
